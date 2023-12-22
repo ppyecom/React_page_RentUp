@@ -62,7 +62,7 @@ form h4{
 @media screen and (max-width:768px){
 
     .hero{
-        height: 100vh;
+        height: 110vh;
     }
 
     .hero .container{
