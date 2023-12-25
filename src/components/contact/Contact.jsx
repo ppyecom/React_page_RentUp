@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import Back from '../common/Back'
 import img from '../images/pricing.jpg'
 import './contact.css'
-import PopUpContact from '../popups/popUpContact'
+import PopUpContact from '../popups/PopUpContact'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
