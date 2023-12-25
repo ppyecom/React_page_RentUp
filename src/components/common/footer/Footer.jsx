@@ -1,6 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import { footer } from '../../data/Data'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -37,7 +38,9 @@ const Footer = () => {
                             <h3>{item.title}</h3>
                             <ul>{item.text.map((items, indx) => {
                                 return(
-                                    <li key={indx}>{items.list}</li>
+                                    <li key={indx}>
+                                        <Link to={items.list}>{items.list}</Link>
+                                    </li>
                                 )
                             })}</ul>
                         </div>
